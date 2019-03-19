@@ -1,3 +1,3 @@
 # asista-sdk-android-demo
-###asista SDK based demo application. 
+### asista SDK based demo application. 
 
