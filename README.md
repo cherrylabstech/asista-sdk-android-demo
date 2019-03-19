@@ -11,7 +11,7 @@ The demo app demonstrates how to use the asista Android SDK into your mobile app
 
 
 ### Using the demo apk
-On including the demo apk to your AndroidStudio make sure to set the three asista property values(TENANT_URL, APP_KEY, APP_SECRET) in the project's string.xml file.  
+On including the demo apk to your AndroidStudio make sure to set the three asista property values(TENANT_URL, APP_KEY, APP_SECRET) in the project's *strings.xml* file.  
 ```
 <string name="TENANT_URL">{your tenant url}</string>
 <string name="APP_KEY">{your apk key}</string>
