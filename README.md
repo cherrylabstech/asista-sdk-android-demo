@@ -2,7 +2,7 @@
 The demo app demonstrates how to use the asista Android SDK into your mobile application.
 
 
-The following asista SDK features are demonstrated in the demo app.
+##### The following asista SDK features are demonstrated in the demo app.
 - Registering or logging into asista.
 - Ticket creation.
 - View Ticket list.
