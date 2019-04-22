@@ -1,5 +1,5 @@
 # asista-sdk-android-demo
-The demo app demonstrates the usage of the various individual asista Android SDKs.
+The app demonstrates the usage of the various individual asista Android SDKs.
 
 
 ##### Sample apps for the following are provided in this demo app.
