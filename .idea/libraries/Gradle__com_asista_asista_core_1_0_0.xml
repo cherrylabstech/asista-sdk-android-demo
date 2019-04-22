@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.asista:asista-core-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asista-core-1.0.0.aar/02268dbb271f8471b5d38d1918240e46/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asista-core-1.0.0.aar/02268dbb271f8471b5d38d1918240e46/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.asista/asista-core/1.0.0/8447a5a39ec1d417130bb909b181a6f1e27be91d/asista-core-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

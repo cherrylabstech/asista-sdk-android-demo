@@ -15,6 +15,4 @@ public class SampleApp extends Application {
         super.onCreate();
     }
 
-
-
 }

@@ -1,4 +1,4 @@
-package com.asista.android.asistasdkdemo.activity;
+package com.asista.android.asistasdkdemo.asista_support;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import com.asista.android.asistasdkdemo.R;
 import com.asista.android.core.AsistaCore;
 import com.asista.android.core.Result;
 import com.asista.android.core.exceptions.AsistaException;

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.asista:asista-bot-0.0.6">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asista-bot-0.0.6.aar/95b8e8fd687640569169dabe0749c9cb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asista-bot-0.0.6.aar/95b8e8fd687640569169dabe0749c9cb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.asista/asista-bot/0.0.6/317566a2edb3d131457f35659ee9f67e737a9ed8/asista-bot-0.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
