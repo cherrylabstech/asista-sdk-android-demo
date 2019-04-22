@@ -1,5 +1,5 @@
 # asista-chatBot-demo
-The Sample app demonstrates the usage of the asista chatBot Android SDK.
+The app demonstrates the usage of the asista chatBot Android SDK.
 
 
 ### Using the demo apk
