@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">asistaBot</string>
-    <string name="BOT_URL">https://chatdev.asista.com</string>
-    <string name="BOT_ID">0c3849b0-4a2d-11e9-949b-e1eadd8bb7cf</string>
+
+    <!--enter your botUrl-->
+    <string name="BOT_URL"></string>
+
+    <!--enter your botId-->
+    <string name="BOT_ID"></string>
 </resources>
