@@ -1,5 +1,5 @@
 # asista-support-demo
-This Sample app demonstrates the usage of the asista Support Android SDK.
+This app demonstrates the usage of the asista Support Android SDK.
 
 
 ##### The following asista SDK features are demonstrated in the demo app.
