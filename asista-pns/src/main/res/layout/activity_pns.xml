@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/notification_icon_lyout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/notification_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/notification_icon"
+            />
+        <TextView
+            android:id="@+id/notification_count"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:layout_gravity="top|right"
+            android:textAlignment="center"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:background="@drawable/notification_dot"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/topic_subscribe_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBSCRIBE TO TOPIC/'s"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/topic_unsubscribe_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UNSUBSCRIBE TOPIC/'s"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/topic_unsubscribe_all_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UNSUBSCRIBE ALL TOPICS"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/pns_unregister_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UNREGISTER"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            />
+        <Button
+            android:id="@+id/copy_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy DeviceToken"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

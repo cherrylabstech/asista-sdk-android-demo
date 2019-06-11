@@ -2,7 +2,7 @@
     package="com.asista.android.asistasdkdemo.asista_bot" >
 
     <application>
-        <activity android:name=".BotActivity">
+        <activity android:name="com.asista.android.demo.asista_bot.BotActivity">
         </activity>
     </application>
 </manifest>

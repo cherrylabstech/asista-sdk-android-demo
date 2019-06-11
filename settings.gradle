@@ -1,1 +1,1 @@
-include ':app', ':asista-support1', ':asista-support', ':asista-chatbot', ':asista-bot'
+include ':app', ':asista-support', ':asista-bot', ':asista-pns'

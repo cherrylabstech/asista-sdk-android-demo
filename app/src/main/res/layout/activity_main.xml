@@ -38,6 +38,18 @@
             android:textSize="@dimen/text_20sp"
             android:elevation="3dp"
             android:gravity="center"/>
+        <TextView
+            android:id="@+id/pns_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asista PNS"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:padding="@dimen/dimen_15dp"
+            android:background="@color/grey_scale_6"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_20sp"
+            android:elevation="3dp"
+            android:gravity="center"/>
     </LinearLayout>
 
 </LinearLayout>

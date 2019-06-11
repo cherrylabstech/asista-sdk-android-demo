@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Asista PNS SDK Demo</string>
+
+    <string name="activity_asista_pns_toolbar_title">Asista PNS</string>
+    <string name="activity_notification_list_toolbar_title">Notifications</string>
+    <string name="activity_topic_list_toolbar_title">Topics</string>
+    <string name="background_notification_body">"This Notification was received when apk was in background"</string>
+
+    <!--<string name="PNS_HOST_URL">{your HOST URL}</string>-->
+    <!--<string name="PNS_APP_KEY">{your APP KEY}</string>-->
+    <string name="PNS_HOST_URL">https://cpaas.asista.in</string>
+    <string name="PNS_APP_KEY">69953db0820011e99a271da9e45363ad</string>
+
+    <string name="default_notification_channel_id">M_CHANNEL_ID</string>
+    <string name="default_notification_channel_name">M_CHANNEL</string>
+
+    <string name="app_notification_perms_disabled">Notification permissions are disabled, notifications(some/all) based on notification categories disabled wont be shown</string>
+    <string name="app_notification_perm_disabled">Notification permission is disabled, notifications wont be shown</string>
+
+</resources>
