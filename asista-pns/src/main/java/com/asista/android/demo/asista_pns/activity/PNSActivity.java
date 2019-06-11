@@ -77,16 +77,10 @@ public class PNSActivity extends AppCompatActivity {
                     Log.e(TAG, "KEY: " + key + "   VALUE: " + value);
                     if ("google.message_id".equals(key)) {
                         message.setId(String.valueOf(value));
-                    }/*else if ("message_title".equals(key)){
-                        message.setTitle(String.valueOf(value));
-                    }else if ("message_body".equals(key)){
-                        message.setBody(String.valueOf(value));
-                    }*/
+                    }
                 }
                 if (!bundle.getBoolean("is_custom_message",false)) {
-//                if (null == message.getTitle())
                     message.setTitle("messageId: "+message.getId());
-//                if (null == message.getBody())
                     message.setBody(getResources().getString(R.string.background_notification_body));
                     DBHelper.getInstance(context).saveMessage(message);
                     Log.i(TAG, "onCreate: msg saved... .");
