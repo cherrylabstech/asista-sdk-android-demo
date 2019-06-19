@@ -49,14 +49,11 @@ public class TopicsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_topics);
         context = this;
-        try {
-            isSubscription = getIntent().getBooleanExtra(PNSActivity.IS_SUBSCRIPTION, false);
-            Log.i(TAG, "onCreate: isSubscription: "+isSubscription);
-            setToolbar();
-            initViews();
-        } catch (AsistaException e) {
-            e.printStackTrace();
-        }
+        isSubscription = getIntent().getBooleanExtra(PNSActivity.IS_SUBSCRIPTION, false);
+        Log.i(TAG, "onCreate: isSubscription: "+isSubscription);
+        setToolbar();
+        initViews();
+
     }
 
     private void setToolbar(){
@@ -75,7 +72,7 @@ public class TopicsActivity extends AppCompatActivity {
     }
 
 
-    private void initViews() throws AsistaException {
+    private void initViews() {
         recyclerView = findViewById(R.id.topic_rv);
         recyclerView.setLayoutManager(new LinearLayoutManager(context));
         progressBar = findViewById(R.id.progress_bar);
@@ -98,11 +95,7 @@ public class TopicsActivity extends AppCompatActivity {
                             public void onSuccess(Result<Void> result) {
                                 Log.i(TAG, "onSuccess: subscribed to topics successfully");
                                 progressBar.setVisibility(View.GONE);
-                                try {
-                                    getSubscribedTopics();
-                                } catch (AsistaException e) {
-                                    e.printStackTrace();
-                                }
+                                getSubscribedTopics();
                                 CommonUtil.displayDialog("subscribed to topics successfully", context);
                             }
 
@@ -133,11 +126,8 @@ public class TopicsActivity extends AppCompatActivity {
                             public void onSuccess(Result<Void> result) {
                                 Log.i(TAG, "onSuccess: unsubscribed from topics successfully");
                                 progressBar.setVisibility(View.GONE);
-                                try {
-                                    getSubscribedTopics();
-                                } catch (AsistaException e) {
-                                    e.printStackTrace();
-                                }
+                                getSubscribedTopics();
+
                                 CommonUtil.displayDialog("unsubscribed from topics successfully", context);
                             }
 
@@ -157,7 +147,7 @@ public class TopicsActivity extends AppCompatActivity {
     }
 
 
-    private void getSubscribedTopics() throws AsistaException {
+    private void getSubscribedTopics() {
         subscribedTopics = null;
         progressBar.setVisibility(View.VISIBLE);
         AsistaPNS.getSubscribedTopics(new Callback<SubscribedTopicsResponse>() {
@@ -169,9 +159,7 @@ public class TopicsActivity extends AppCompatActivity {
                 subscribedTopics = subscribedTopicsResponse.getList();
 
                 if (isSubscription){
-                    try {
-                        getTopics();
-                    } catch (AsistaException e) { e.printStackTrace(); }
+                    getTopics();
                 } else{
                     if (CommonUtil.checkIsEmpty(subscribedTopics)){
                         findViewById(R.id.empty_view).setVisibility(View.VISIBLE);
@@ -196,7 +184,7 @@ public class TopicsActivity extends AppCompatActivity {
         });
     }
 
-    private void getTopics() throws AsistaException {
+    private void getTopics() {
         topics = null;
         progressBar.setVisibility(View.VISIBLE);
         final List<TopicsResponse.Topic> unsubscribedTopics = new ArrayList<>();
@@ -216,8 +204,6 @@ public class TopicsActivity extends AppCompatActivity {
                         if (!checkIsSubscribed(topic.getTopicId()))
                             unsubscribedTopics.add(topic);
                     }
-                    Log.i(TAG, "onSuccess: topics: "+topics);
-                    Log.i(TAG, "onSuccess: unsubscribedtopics: "+unsubscribedTopics);
                 }
                 adapter = new Adapter(unsubscribedTopics, context);
                 recyclerView.setAdapter(adapter);

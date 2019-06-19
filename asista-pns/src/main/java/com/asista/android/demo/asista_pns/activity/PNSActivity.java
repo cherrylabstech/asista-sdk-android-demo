@@ -25,7 +25,6 @@ import com.asista.android.demo.asista_pns.model.Message;
 import com.asista.android.pns.AsistaPNS;
 import com.asista.android.pns.Result;
 import com.asista.android.pns.exceptions.AsistaException;
-import com.asista.android.pns.exceptions.NullDataFoundException;
 import com.asista.android.pns.interfaces.Callback;
 import com.asista.android.pns.model.RegistrationRequestDetails;
 import com.asista.android.pns.util.CommonUtil;
@@ -56,37 +55,26 @@ public class PNSActivity extends AppCompatActivity {
 
         checkNotificationPermission();
 
-        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        List<NotificationChannel> channels;
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-            channels = manager.getNotificationChannels();
-            for (NotificationChannel channel: channels){
-                Log.i(TAG, "isNotificationChannelEnabled: channel: "+channel.getId()+", "+channel.getImportance());
-            }
-        }
-
         bundle = getIntent().getBundleExtra(BUNDLE);
         progressBar = findViewById(R.id.progressbar);
 
         setToolbar();
         if (null != bundle) {
             Message message = new Message();
-            if (bundle != null) {
-                for (String key : bundle.keySet()) {
-                    Object value = bundle.get(key);
-                    Log.e(TAG, "KEY: " + key + "   VALUE: " + value);
-                    if ("google.message_id".equals(key)) {
-                        message.setId(String.valueOf(value));
-                    }
+            for (String key : bundle.keySet()) {
+                Object value = bundle.get(key);
+                Log.e(TAG, "KEY: " + key + "   VALUE: " + value);
+                if ("google.message_id".equals(key)) {
+                    message.setId(String.valueOf(value));
                 }
-                if (!bundle.getBoolean("is_custom_message",false)) {
-                    message.setTitle("messageId: "+message.getId());
-                    message.setBody(getResources().getString(R.string.background_notification_body));
-                    DBHelper.getInstance(context).saveMessage(message);
-                    Log.i(TAG, "onCreate: msg saved... .");
-                }else
-                    Log.e(TAG, "onCreate: msg not saved... ." );
             }
+            if (!bundle.getBoolean("is_custom_message",false)) {
+                message.setTitle("messageId: "+message.getId());
+                message.setBody(getResources().getString(R.string.background_notification_body));
+                DBHelper.getInstance(context).saveMessage(message);
+                Log.i(TAG, "onCreate: msg saved... .");
+            }else
+                Log.e(TAG, "onCreate: msg not saved... ." );
         }else
             Log.e(TAG, "onCreate: bundle is null");
 

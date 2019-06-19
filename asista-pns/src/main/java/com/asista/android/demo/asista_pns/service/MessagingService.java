@@ -145,7 +145,7 @@ public class MessagingService extends AsistaFCMService {
         bundle.putString("google.message_id", message.getId());
         bundle.putString("message_title", message.getTitle());
         bundle.putString("message_body", message.getBody());
-        bundle.putBoolean("is_message_saved", true);
+        bundle.putBoolean("is_custom_message", true);
         intent.putExtras(bundle);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 
