@@ -6,6 +6,6 @@ Import this demo project into your AndroidStudio and add the Bot property values
 <string name="BOT_URL">{your chatBot url}</string>
 <string name="BOT_ID">{your chatBot Id}</string>
 ```
-For full documentation visit the asista [Developers page](https://asista.com/developer/docs/asista-chatbot-sdk-for-android)
+Find full documentation at asista [Developers page](https://asista.com/developer/docs/asista-chatbot-sdk-for-android)
 
 If any issues found please feel free to create a new issue [here](https://github.com/cherrylabstech/asista-sdk-android-demo/issues).
