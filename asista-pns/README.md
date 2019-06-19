@@ -12,6 +12,6 @@ The app demonstrates the usage of the asista PNS Android SDK.
 - Using the **deviceToken**(you can get your deviceToken from the demo app) or a subscribed **topic**(use the **SUBSCRIBE TO TOPIC/'S** option in the demo app to subscribe to a topic) 
 you can send notification to the installed demo apk.
 
-For full documentaion visit the asista Developers page.
+Find full documentaion at asista Developers page.
 
 If any issues found please feel free to create a new issue [here](https://github.com/cherrylabstech/asista-sdk-android-demo/issues).
