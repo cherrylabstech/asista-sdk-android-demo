@@ -6,8 +6,7 @@
     <string name="activity_topic_list_toolbar_title">Topics</string>
     <string name="background_notification_body">"This Notification was received when apk was in background"</string>
 
-    <!--<string name="PNS_APP_KEY">{your APP KEY}</string>-->
-    <string name="PNS_APP_KEY">69953db0820011e99a271da9e45363ad</string>
+    <string name="PNS_APP_KEY">{your APP KEY}</string>
 
     <string name="default_notification_channel_id">M_CHANNEL_ID</string>
     <string name="default_notification_channel_name">M_CHANNEL</string>
