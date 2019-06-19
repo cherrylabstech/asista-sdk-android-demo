@@ -51,7 +51,8 @@
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/ic_notification" />
 
-        <activity android:name="com.asista.android.asistasdkdemo.asista_support.com.asista.android.demo.asista_support.SupportMainActivity" >
+        <activity android:name="com.asista.android.demo.asista_support.RegisterActivity" />
+        <activity android:name="com.asista.android.demo.asista_support.SupportMainActivity" >
         </activity>
         <activity
             android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
