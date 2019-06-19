@@ -6,7 +6,7 @@ INJECTED from F:\Git\asista-sdk-android-demo\app\src\main\AndroidManifest.xml:2:
 INJECTED from F:\Git\asista-sdk-android-demo\app\src\main\AndroidManifest.xml:2:1-22:12
 MERGED from [:asista-bot] F:\Git\asista-sdk-android-demo\asista-bot\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [:asista-pns] F:\Git\asista-sdk-android-demo\asista-pns\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-37:12
-MERGED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f036680cdbaf6e64f2f83126cd8b84a4\AndroidManifest.xml:17:1-22:12
 MERGED from [pub.devrel:easypermissions:1.1.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.1.aar\eb2a71ff8d7d7443f25694222ea50bac\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\e087bd7f22cb482377b2a57e349de0ca\AndroidManifest.xml:17:1-22:12
@@ -74,8 +74,8 @@ MERGED from [:asista-bot] F:\Git\asista-sdk-android-demo\asista-bot\build\interm
 MERGED from [:asista-bot] F:\Git\asista-sdk-android-demo\asista-bot\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-14:19
 MERGED from [:asista-pns] F:\Git\asista-sdk-android-demo\asista-pns\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-35:19
 MERGED from [:asista-pns] F:\Git\asista-sdk-android-demo\asista-pns\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-35:19
-MERGED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20:19
-MERGED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20:19
+MERGED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
 MERGED from [pub.devrel:easypermissions:1.1.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.1.aar\eb2a71ff8d7d7443f25694222ea50bac\AndroidManifest.xml:11:5-17:19
 MERGED from [pub.devrel:easypermissions:1.1.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.1.aar\eb2a71ff8d7d7443f25694222ea50bac\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ed007b27418e538ef91cd5f471611f24\AndroidManifest.xml:9:5-20
@@ -298,10 +298,14 @@ ADDED from [:asista-pns] F:\Git\asista-sdk-android-demo\asista-pns\build\interme
 		ADDED from [:asista-pns] F:\Git\asista-sdk-android-demo\asista-pns\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-57
 	android:name
 		ADDED from [:asista-pns] F:\Git\asista-sdk-android-demo\asista-pns\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:13-83
-activity#com.asista.android.asistasdkdemo.asista_support.com.asista.android.demo.asista_support.SupportMainActivity
-ADDED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:9-19:20
+activity#com.asista.android.demo.asista_support.RegisterActivity
+ADDED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:9-92
 	android:name
-		ADDED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:19-140
+		ADDED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:19-89
+activity#com.asista.android.demo.asista_support.SupportMainActivity
+ADDED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:9-20:20
+	android:name
+		ADDED from [:asista-support] F:\Git\asista-sdk-android-demo\asista-support\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:19-92
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
 ADDED from [pub.devrel:easypermissions:1.1.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.1.aar\eb2a71ff8d7d7443f25694222ea50bac\AndroidManifest.xml:12:9-16:66
 	android:label
