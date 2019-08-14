@@ -199,10 +199,12 @@
     <color name="grey_darker">#656565</color>
     <color name="grey_extralite">#F5F5F5</color>
     <color name="grey_light">#CCCCCC</color>
+    <color name="grey_light1">#DDDDDD</color>
     <color name="grey_light_extra">#EEEEEE</color>
     <color name="grey_lite">#E2E2E2</color>
     <color name="grey_scale_5">#EEEEEE</color>
     <color name="grey_scale_6">#F5F5F5</color>
+    <color name="grey_scale_7">#F9F9F9</color>
     <color name="grey_trans">#70999999</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>

@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asista-bot/asista-bot.iml" filepath="$PROJECT_DIR$/asista-bot/asista-bot.iml" />
       <module fileurl="file://$PROJECT_DIR$/asista-pns/asista-pns.iml" filepath="$PROJECT_DIR$/asista-pns/asista-pns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/asista-sdk-android-demo.iml" filepath="$PROJECT_DIR$/.idea/asista-sdk-android-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asista-sdk-android-demo.iml" filepath="$PROJECT_DIR$/asista-sdk-android-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/asista-support/asista-support.iml" filepath="$PROJECT_DIR$/asista-support/asista-support.iml" />
     </modules>
   </component>

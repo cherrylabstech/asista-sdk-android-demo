@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Git\\asista-sdk-android-demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "E:\\andriodProjects\\GIT\\asista-sdk-android-demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e087bd7f22cb482377b2a57e349de0ca\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9b9c99e0fed266a47a9ebc345ecc8151\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

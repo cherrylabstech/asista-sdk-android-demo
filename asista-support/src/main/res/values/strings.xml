@@ -2,14 +2,11 @@
     <string name="app_name">asistaSupport</string>
 
     //replace 'www.example.com' with your tenant URL
-    <string name="TENANT_URL">dev.asista.in</string>
     <!--<string name="TENANT_URL">www.example.com</string>-->
 
     //replace 'abcdefg' with your apk-key
     <!--<string name="APP_KEY">abcdefg</string>-->
-    <string name="APP_KEY">ownLvSuHv6uPvqgeNxX2Gg</string>
 
     //replace 'xy21937z9' with your apk-secret
-    <string name="APP_SECRET">nHBgNEcsxDylLiIBAdZ6Th1Oy2Ld3O0N9gEPd7LK8eA</string>
     <!--<string name="APP_SECRET">xy21937z9</string>-->
 </resources>
