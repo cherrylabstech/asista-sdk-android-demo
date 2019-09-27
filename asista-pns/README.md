@@ -4,7 +4,9 @@ The app demonstrates the usage of the asista PNS Android SDK.
 - Create a project in your [Firebase console](https://console.firebase.google.com)
 - Navigate to the project _settings_ page, and under the _Cloud Messaging_ tab you will find your **Server key**.
 - Use the **Server key** to create an asista PNS app, from which you will get your **APP_KEY**.
-- Import this demo app to your AndroidStudio and add the **APP_KEY** as string resource in your android project's **_strings.xml_** file.
+- Import this demo app to your AndroidStudio.
+- Add the **google-sevices.json** to the top level directory of the asista-pns module.(you can obtain google-sevices.json file from your firebase(project's) console).
+- Add the **APP_KEY** as string resource in your android project's **_strings.xml_** file.
 ```
 <string name="PNS_APP_KEY">{your APP KEY}</string>
 ```
